@@ -34,7 +34,7 @@ import com.railwayteam.railways.registry.CRCommands;
 import com.railwayteam.railways.registry.CRPackets;
 import com.railwayteam.railways.util.Utils;
 import com.simibubi.create.CreateBuildInfo;
-import com.simibubi.create.foundation.data.CreateRegistrate;
+import com.railwayteam.railways.registry.forge.CreateRegistrateImpl;
 import com.simibubi.create.foundation.item.ItemDescription;
 import com.simibubi.create.foundation.item.KineticStats;
 import com.simibubi.create.foundation.item.TooltipModifier;

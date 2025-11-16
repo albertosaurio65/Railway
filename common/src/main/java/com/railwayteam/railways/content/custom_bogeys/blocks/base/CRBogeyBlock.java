@@ -20,7 +20,7 @@ package com.railwayteam.railways.content.custom_bogeys.blocks.base;
 
 import com.railwayteam.railways.content.custom_bogeys.blocks.base.be.CRBogeyBlockEntity;
 import com.railwayteam.railways.registry.CRBlockEntities;
-import com.simibubi.create.AllBlocks;
+import com.railwayteam.railways.registry.forge.CRBlocksImpl;
 import com.simibubi.create.api.schematic.requirement.SpecialBlockItemRequirement;
 import com.simibubi.create.content.trains.bogey.AbstractBogeyBlock;
 import com.simibubi.create.content.trains.bogey.BogeySizes.BogeySize;

@@ -27,7 +27,7 @@ import com.railwayteam.railways.content.palettes.boiler.BoilerCTBehaviour;
 import com.railwayteam.railways.content.palettes.smokebox.PalettesSmokeboxBlock;
 import com.railwayteam.railways.util.ColorUtils;
 import com.simibubi.create.foundation.block.connected.SimpleCTBehaviour;
-import com.simibubi.create.foundation.data.CreateRegistrate;
+import com.railwayteam.railways.registry.forge.CreateRegistrateImpl;
 import com.simibubi.create.foundation.item.ItemDescription;
 import com.tterrag.registrate.util.entry.BlockEntry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -47,7 +47,7 @@ import java.util.function.Function;
 
 import static com.railwayteam.railways.util.TextUtils.joinSpace;
 import static com.railwayteam.railways.util.TextUtils.joinUnderscore;
-import static com.simibubi.create.foundation.data.CreateRegistrate.connectedTextures;
+import static com.railwayteam.railways.registry.forge.CreateRegistrateImpl.connectedTextures;
 import static com.simibubi.create.foundation.data.ModelGen.customItemModel;
 
 public class CRPalettes {

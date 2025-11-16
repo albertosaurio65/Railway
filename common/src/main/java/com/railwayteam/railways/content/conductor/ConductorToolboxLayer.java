@@ -24,7 +24,7 @@ import com.mojang.math.Axis;
 import com.railwayteam.railways.content.conductor.toolbox.MountedToolbox;
 import com.railwayteam.railways.registry.CRBlockPartials;
 import com.simibubi.create.AllPartialModels;
-import com.simibubi.create.AllTags;
+import com.railwayteam.railways.registry.forge.CRTagImpl;
 import net.createmod.catnip.render.CachedBuffers;
 import net.createmod.catnip.render.SuperByteBuffer;
 import net.createmod.catnip.data.Iterate;

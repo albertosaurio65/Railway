@@ -18,7 +18,7 @@
 
 package com.railwayteam.railways.registry;
 
-import com.simibubi.create.AllBlocks;
+import com.railwayteam.railways.registry.forge.CRBlocksImpl;
 import com.simibubi.create.infrastructure.ponder.AllCreatePonderTags;
 import com.tterrag.registrate.util.entry.RegistryEntry;
 import net.createmod.ponder.api.registration.PonderTagRegistrationHelper;

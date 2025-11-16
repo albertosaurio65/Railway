@@ -22,7 +22,7 @@ import com.railwayteam.railways.mixin_interfaces.IHasTrackCasing;
 import com.railwayteam.railways.registry.CRTags;
 import com.railwayteam.railways.util.AdventureUtils;
 import com.railwayteam.railways.util.EntityUtils;
-import com.simibubi.create.AllItems;
+import com.railwayteam.railways.registry.forge.CRItemsImpl;
 import com.simibubi.create.content.trains.track.TrackPropagator;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionHand;

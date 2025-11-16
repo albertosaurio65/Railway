@@ -21,7 +21,7 @@ package com.railwayteam.railways.content.custom_tracks.generic_crossing;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.railwayteam.railways.registry.CRBlockEntities;
 import com.railwayteam.railways.registry.CRTrackMaterials;
-import com.simibubi.create.AllBlocks;
+import com.railwayteam.railways.registry.forge.CRBlocksImpl;
 import com.simibubi.create.AllShapes;
 import com.simibubi.create.api.schematic.requirement.SpecialBlockItemRequirement;
 import com.simibubi.create.content.equipment.wrench.IWrenchable;

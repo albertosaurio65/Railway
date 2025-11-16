@@ -23,7 +23,7 @@ import com.railwayteam.railways.mixin.AccessorBlockEntity;
 import com.railwayteam.railways.mixin.AccessorToolboxBlockEntity;
 import com.railwayteam.railways.util.packet.PacketSender;
 import com.simibubi.create.AllBlockEntityTypes;
-import com.simibubi.create.AllBlocks;
+import com.railwayteam.railways.registry.forge.CRBlocksImpl;
 import com.simibubi.create.content.equipment.toolbox.ToolboxBlockEntity;
 import dev.architectury.injectables.annotations.ExpectPlatform;
 import net.minecraft.nbt.CompoundTag;

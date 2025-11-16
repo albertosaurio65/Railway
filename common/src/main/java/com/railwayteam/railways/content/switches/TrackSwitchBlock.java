@@ -21,7 +21,7 @@ package com.railwayteam.railways.content.switches;
 import com.railwayteam.railways.content.conductor.ConductorEntity;
 import com.railwayteam.railways.registry.CRBlockEntities;
 import com.railwayteam.railways.registry.CRShapes;
-import com.simibubi.create.AllItems;
+import com.railwayteam.railways.registry.forge.CRItemsImpl;
 import com.simibubi.create.content.equipment.wrench.IWrenchable;
 import com.simibubi.create.content.trains.entity.TravellingPoint;
 import com.simibubi.create.foundation.block.IBE;

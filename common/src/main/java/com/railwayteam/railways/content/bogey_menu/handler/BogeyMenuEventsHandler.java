@@ -22,7 +22,7 @@ import com.railwayteam.railways.annotation.event.MultiLoaderEvent;
 import com.railwayteam.railways.content.bogey_menu.BogeyMenuScreen;
 import com.railwayteam.railways.registry.CRKeys;
 import com.railwayteam.railways.util.EntityUtils;
-import com.simibubi.create.AllBlocks;
+import com.railwayteam.railways.registry.forge.CRBlocksImpl;
 import net.createmod.catnip.gui.ScreenOpener;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.player.LocalPlayer;

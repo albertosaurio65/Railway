@@ -22,7 +22,7 @@ import com.llamalad7.mixinextras.injector.ModifyExpressionValue;
 import com.railwayteam.railways.annotation.mixin.ConditionalMixin;
 import com.railwayteam.railways.compat.Mods;
 import com.railwayteam.railways.content.animated_flywheel.FlywheelMovementBehaviour;
-import com.simibubi.create.AllBlocks;
+import com.railwayteam.railways.registry.forge.CRBlocksImpl;
 import com.simibubi.create.api.behaviour.movement.MovementBehaviour;
 import com.tterrag.registrate.builders.BlockBuilder;
 import net.minecraft.world.level.block.Block;

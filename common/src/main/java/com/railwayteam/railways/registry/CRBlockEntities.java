@@ -42,7 +42,7 @@ import com.railwayteam.railways.content.smokestack.block.renderer.DieselSmokeSta
 import com.railwayteam.railways.content.switches.TrackSwitchBlockEntity;
 import com.railwayteam.railways.content.switches.TrackSwitchRenderer;
 import com.simibubi.create.content.trains.bogey.BogeyBlockEntityRenderer;
-import com.simibubi.create.foundation.data.CreateRegistrate;
+import com.railwayteam.railways.registry.forge.CreateRegistrateImpl;
 import com.tterrag.registrate.util.entry.BlockEntityEntry;
 
 public class CRBlockEntities {

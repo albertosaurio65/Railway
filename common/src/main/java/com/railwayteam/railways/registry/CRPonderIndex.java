@@ -21,7 +21,7 @@ package com.railwayteam.railways.registry;
 import com.railwayteam.railways.ponder.scenes.ConductorScenes;
 import com.railwayteam.railways.ponder.scenes.DoorScenes;
 import com.railwayteam.railways.ponder.scenes.TrainScenes;
-import com.simibubi.create.AllBlocks;
+import com.railwayteam.railways.registry.forge.CRBlocksImpl;
 import com.tterrag.registrate.util.entry.ItemProviderEntry;
 import com.tterrag.registrate.util.entry.RegistryEntry;
 import net.createmod.ponder.api.registration.PonderSceneRegistrationHelper;

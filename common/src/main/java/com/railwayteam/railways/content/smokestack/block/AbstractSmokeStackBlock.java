@@ -21,7 +21,7 @@ package com.railwayteam.railways.content.smokestack.block;
 import com.railwayteam.railways.content.smokestack.SmokestackStyle;
 import com.railwayteam.railways.registry.CRBlocks;
 import com.railwayteam.railways.util.ShapeWrapper;
-import com.simibubi.create.AllTags;
+import com.railwayteam.railways.registry.forge.CRTagImpl;
 import com.simibubi.create.content.equipment.wrench.IWrenchable;
 import com.simibubi.create.foundation.block.IBE;
 import com.simibubi.create.foundation.block.ProperWaterloggedBlock;

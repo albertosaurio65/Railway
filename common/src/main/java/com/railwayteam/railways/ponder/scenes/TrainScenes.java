@@ -27,7 +27,7 @@ import com.railwayteam.railways.content.switches.TrackSwitchBlockEntity.PonderDa
 import com.railwayteam.railways.mixin_interfaces.IStandardBogeyTEVirtualCoupling;
 import com.railwayteam.railways.registry.CRBlocks;
 import com.simibubi.create.AllBlockEntityTypes;
-import com.simibubi.create.AllItems;
+import com.railwayteam.railways.registry.forge.CRItemsImpl;
 import com.simibubi.create.content.redstone.nixieTube.NixieTubeBlockEntity;
 import com.simibubi.create.content.trains.signal.SignalBlock;
 import com.simibubi.create.content.trains.signal.SignalBlockEntity;

@@ -20,7 +20,7 @@ package com.railwayteam.railways.mixin.client;
 
 import com.llamalad7.mixinextras.injector.ModifyExpressionValue;
 import com.railwayteam.railways.content.custom_tracks.generic_crossing.GenericCrossingBlock;
-import com.simibubi.create.AllBlocks;
+import com.railwayteam.railways.registry.forge.CRBlocksImpl;
 import com.simibubi.create.foundation.block.BigOutlines;
 import net.minecraft.world.level.block.Block;
 import org.spongepowered.asm.mixin.Mixin;
