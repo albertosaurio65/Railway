@@ -25,8 +25,8 @@ import static com.railwayteam.railways.registry.CRItems.ITEM_CONDUCTOR_CAP;
 @EventBusSubscriber(bus = Bus.MOD)
 public class CRCreativeModeTabsImpl {
 
-    private static final DeferredRegister<CreativeModeTab> TAB_REGISTER = DeferredRegister
-            .create(Registries.CREATIVE_MODE_TAB, Railways.MOD_ID);
+    private static final DeferredRegister<CreativeModeTab> TAB_REGISTER =
+            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Railways.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> MAIN_TAB = TAB_REGISTER.register("main",
             () -> CreativeModeTab.builder()
@@ -68,3 +68,4 @@ public class CRCreativeModeTabsImpl {
         return PALETTES_TAB.getKey();
     }
 }
+

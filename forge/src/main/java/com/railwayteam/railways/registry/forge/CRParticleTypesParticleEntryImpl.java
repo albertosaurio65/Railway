@@ -19,8 +19,8 @@ import java.util.function.Supplier;
 
 public class CRParticleTypesParticleEntryImpl {
 
-    private static final DeferredRegister<ParticleType<?>> REGISTER = DeferredRegister.create(Railways.MOD_ID,
-            ParticleType.class);
+    private static final DeferredRegister<ParticleType<?>> REGISTER =
+            DeferredRegister.create(Railways.MOD_ID, ParticleType.class);
 
     public static void register(String id, Supplier<ParticleType<?>> supplier) {
         REGISTER.register(id, supplier);
@@ -34,13 +34,13 @@ public class CRParticleTypesParticleEntryImpl {
     @OnlyIn(Dist.CLIENT)
     @SuppressWarnings("deprecation")
     public static <T extends ParticleOptions> void registerFactory(
-            ParticleType<T> object,
+            ParticleType<T> type,
             ParticleEngine engine,
             ICustomParticleData<T> customParticleData) {
         if (customParticleData instanceof ICustomParticleDataWithSprite<T> withSprite) {
-            engine.register(object, withSprite.getMetaFactory());
+            engine.register(type, withSprite.getMetaFactory());
         } else {
-            engine.register(object, customParticleData.getFactory());
+            engine.register(type, customParticleData.getFactory());
         }
     }
 }

@@ -44,7 +44,7 @@ public class CRExtraRegistrationImpl {
         }
         
         REGISTRATE = localRegistrate;
-	}
+    }
     
     public static void platformSpecificRegistration() {
         if (REGISTRATE != null) {
