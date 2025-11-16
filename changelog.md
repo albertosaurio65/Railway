@@ -95,7 +95,7 @@ Fixes
 - Fix crash when running setStation({}) (https://github.com/Creators-of-Create/Create/issues/5818)
 
 Removals
-- Conductor caps tab (1.20.1)
+- Conductor caps tab (1.21.1)
 ------------------------------------------------------
 Steam 'n' Rails 1.6.3
 ------------------------------------------------------
@@ -127,9 +127,9 @@ Steam 'n' Rails 1.6.1
 Steam 'n' Rails 1.6.0
 ------------------------------------------------------
 Additions
-- Cherry, Bamboo & Stripped Bamboo Tracks (1.20.1)
-- Nature's Spirit compat Tracks (1.20.1)
-- TerraFirmaCraft compat Tracks (1.20.1)
+- Cherry, Bamboo & Stripped Bamboo Tracks (1.21.1)
+- Nature's Spirit compat Tracks (1.21.1)
+- TerraFirmaCraft compat Tracks (1.21.1)
 - Create: Dreams and Desires compat Tracks
 - Quark compat tracks
 - Handcar: wrench to pick up
